@@ -1,0 +1,15 @@
+header {
+    position: relative;
+    top: 0;
+    left: auto;
+    width: 100%;
+    padding: 30px 10px;
+    margin-right: 10%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a:hover {
+    color: blue;
+}
