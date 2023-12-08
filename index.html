@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
     <title>MY PORTFOLIO WEBSITE</title>
 </head>
 <body>
-    <nav>
-        <button class="nav-toggle" onclick="toggleNav()">☰</button>
-        <ul class="nav-list">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#about-me">ABOUT ME</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="https://github.com/humphreyotieno1" class="Github" target="_blank">PROJECTS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#aboutme">ABOUT ME</a>
+            <a href="#skills">SKILLS</a>
+            <a href="https://github.com/humphreyotieno1" class="Github" target="_blank">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+            <div class="animation start"></div>
+        </nav>
+    </header>
 
     <section id="home">
         <article>
@@ -39,9 +39,9 @@
     </section>
 
     <aside>
-        <div class="image-container">
-            <img src="assets/hum.jpg" alt="Profile picture" loading="lazy">
-        </div>
+        <!--<div class="image-container">
+            <img src="assets/istockphoto-1312136351-1024x1024.jpg" alt="Profile picture" loading="lazy">
+        </div>-->
     </aside>
 
     <footer>
