@@ -1,26 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>MY PORTFOLIO WEBSITE</title>
-    </head>
-    <body>
-        <header>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
+    <title>MY PORTFOLIO WEBSITE</title>
+</head>
+<body>
+    <nav>
+        <button class="nav-toggle" onclick="toggleNav()">☰</button>
+        <ul class="nav-list">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about-me">ABOUT ME</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="https://github.com/humphreyotieno1" class="Github" target="_blank">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
 
-        </header>
-        <main>
-            <section>
-                <article>
-
-                </article>
-            </section>
-        </main>
-        <aside>
-
-        </aside>
-        <footer>
+    <section id="home">
+        <article>
+            <hgroup>
+                <h3>Hello, Welcome to my Portfolio Website</h3>
+                <h1>I am <span>Humphrey Otieno</span></h1>
+                <h3>Junior Full-Stack Developer</h3>
+            </hgroup>
             
-        </footer>
-    </body>
+            <p>I am a newbie Full-Stack Software Developer currently learning.<br>
+            Welcome to my portfolio! I am a passionate and 
+            dedicated full-stack developer on an interesting journey of learning and growth.<br>
+            With a foundation in both front-end and back-end technologies, I hope to major on creating seamless, 
+            user-centric web applications.<br>
+            I am well conversant with development concepts in HTML, CSS, JavaScript, Python, and C.<br>
+            Join me on this exciting adventure, where every line of code represents a step towards 
+            mastery and the realization of digital solutions that make a meaningful impact.</p>
+        </article>
+    </section>
+
+    <aside>
+        <div class="image-container">
+            <img src="assets/hum.jpg" alt="Profile picture" loading="lazy">
+        </div>
+    </aside>
+
+    <footer>
+        <div class="socialmedia">
+            <a href="https://www.linkedin.com/in/humphrey-otieno/" target="_blank"><i class="bx bxl-linkedin-square" style="color: blue;"></i></a>
+            <a href="https://twitter.com/_Banta__" target="_blank"><i class="bx bxl-twitter" style="color: rgb(86, 86, 225);"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="bx bxl-instagram-alt" style="color: purple;"></i></a>
+            <p>&copy; 2023 Humphrey Otieno. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
