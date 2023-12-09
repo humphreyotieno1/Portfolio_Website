@@ -13,3 +13,13 @@ header {
 header nav a:hover {
     color: blue;
 }
+
+.mylogo {
+    position: relative;
+    font-size: 30px;
+    color: rgb(78, 71, 71);
+    text-decoration: solid;
+    font-weight: 900;
+    cursor: pointer;
+
+}
