@@ -1,5 +1,3 @@
-// Add this JavaScript code in a new file named main.js
-
 document.addEventListener('DOMContentLoaded', function () {
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('nav');

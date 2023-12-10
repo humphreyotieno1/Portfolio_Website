@@ -57,6 +57,7 @@ section p {
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
+    background-color: aliceblue;
 }
 
 .image-container img {
