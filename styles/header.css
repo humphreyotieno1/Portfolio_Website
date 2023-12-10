@@ -1,25 +1,20 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url("/assets/pexels-steve-johnson-1484759.jpg");
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+
 header {
     position: relative;
-    top: 0;
-    left: auto;
-    width: 100%;
     padding: 30px 10px;
     margin-right: 10%;
-    display: block;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-header nav a:hover {
-    color: blue;
-}
-
-.mylogo {
-    position: relative;
-    font-size: 30px;
-    color: rgb(78, 71, 71);
-    text-decoration: solid;
-    font-weight: 900;
-    cursor: pointer;
-
 }
