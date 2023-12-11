@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("/assets/pexels-steve-johnson-1484759.jpg");
+    background-image: url("./assets/pexels-steve-johnson-1484759.jpg");
     background-repeat: no-repeat;
     font-size: 18px;
 }
