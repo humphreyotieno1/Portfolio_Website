@@ -78,7 +78,18 @@ nav .start-skills, a:nth-child(3):hover~.animation { width: 100px; left: 210px; 
 nav .start-https, a:nth-child(4):hover~.animation { width: 160px; left: 310px; background-color: #9b59b6; }
 nav .start-contact, a:nth-child(5):hover~.animation { width: 120px; left: 470px; background-color: #e67e22; }
 
-section#home, #aboutme, #hobbies{
+section#home {
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 90px 30%;
+}
+
+section#aboutme, #hobbies{
     position: relative;
     width: 100%;
     min-height: 50vh;
